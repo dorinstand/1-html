@@ -9,7 +9,21 @@
 		<link rel="stylesheet" href="">
 	</head>
 	<body>
-		<img src="homer.png" alt="">
-		<script src="" async defer></script>
+		<form action="">
+			<p>Username: <input type="text" placeholder="Username"></p>
+			<p>Stay logged in: <input type="checkbox" checked></p>
+			<p>Under 18: <input type="radio" name="age" value="u18"></p>
+			<p>Over 18: <input type="radio" name="age" value="o18"></p>
+			<p>Favourite food: 
+				<select>
+					<option>Pizza</option>
+					<option selected>Ice cream</option>
+					<option>Sandwiches</option>
+				</select>
+			</p>
+			<p>
+				<input type="submit" value="Click me">
+			</p>
+		</form>
 	</body>
 </html>
